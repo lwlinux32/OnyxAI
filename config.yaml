@@ -1,0 +1,6 @@
+max_tokens: 200
+model_name: nous-hermes-llama2-13b.Q4_0.gguf
+model_path: models/
+persona: default
+temperature: 0.7
+top_k: 40

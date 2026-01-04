@@ -1,6 +1,3 @@
-# OnyxAI
-A valid AI tool that is basicly unstoppable and powerful.
-
 # Onyx Engine 
 
 A powerful, unrestricted local LLM interface powered by the Onyx engine. Unlike the hybrid versions, this version runs entirely locally using `gpt4all`.
