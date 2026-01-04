@@ -12,19 +12,19 @@ A powerful, unrestricted local LLM interface powered by the Onyx engine. Unlike 
 - **Premium CLI**: High-impact Red-themed terminal interface.
 
 ## Installation
-1. Ensure you have Python installed.
-2. Install dependencies:
+```bash
+git clone https://github.com/lwlinux32/OnyxAI
+cd OnyxAI
+```
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Download a model (GGUF format) and place it in the `models/` directory, or use the built-in downloader in the menu.
-
 ## Usage
 Run the application:
 ```bash
 python main.py
 ```
-
 ### Commands in Chat
 - `/exit` or `back`: Return to the main menu.
 
