@@ -16,12 +16,12 @@ def list_personas():
 def chat_loop(engine: ModelEngine, config: ConfigManager):
     current_persona = config.settings.persona
     display_name = current_persona.replace(".txt", "").replace("_", " ").title()
-    UI.print_system(f"Starting chat with persona: [bold red]{display_name}[/bold red]")
+    UI.print_system(f"Starting chat with persona: [bold cyan]{display_name}[/bold cyan]")
     UI.print_system("Type 'exit', 'quit', or 'back' to return to menu.")
     
     while True:
         try:
-            user_input = console.input(f"\n[bold red]You[/bold red] > ")
+            user_input = console.input(f"\n[bold cyan]You[/bold cyan] > ")
             if user_input.lower() in ('exit', 'quit', 'back'):
                 break
             
