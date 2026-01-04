@@ -12,7 +12,10 @@ A powerful, unrestricted local LLM interface powered by the Onyx engine. This ve
 - **Modern CLI**: Clean Cyan-themed terminal interface.
 
 ## Installation
-1. Ensure you have Python installed.
+1.   ```bash
+     git clone https://github.com/lwlinux32/OnyxAI
+     cd OnyxAI
+     ```
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
