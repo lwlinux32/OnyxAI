@@ -12,23 +12,23 @@ class UI:
     @staticmethod
     def print_header():
         console.clear()
-        title = """[bold red]
-██     ██  ██████  ██████  ███    ███      ██████  ██████  ████████ 
-██     ██ ██    ██ ██   ██ ████  ████     ██       ██   ██    ██    
-██  █  ██ ██    ██ ██████  ██ ████ ██     ██   ███ ██████     ██    
-██ ███ ██ ██    ██ ██   ██ ██  ██  ██     ██    ██ ██         ██    
- ███ ███   ██████  ██   ██ ██      ██      ██████  ██         ██    
-
-       [bold red]WORM GPT[/bold red]
-[/bold red]
-[bold red]Unrestricted | Powerful | Local[/bold red]
+        title = """[bold cyan]
+   ____                 
+  / __ \____  __  ___  __
+ / / / / __ \/ / / / |/_/
+/ /_/ / / / / /_/ />  <  
+\____/_/ /_/\__, /_/|_|  
+           /____/        
+       [bold cyan]ONYX[/bold cyan]
+[/bold cyan]
+[bold cyan]The Beyond Future of AI | Unrestricted[/bold cyan]
 """
-        console.print(Panel(title, border_style="red"))
+        console.print(Panel(title, border_style="cyan"))
 
     @staticmethod
     def show_menu() -> str:
         table = Table(title="Main Menu", box=None)
-        table.add_column("Option", style="red", no_wrap=True)
+        table.add_column("Option", style="cyan", no_wrap=True)
         table.add_column("Description", style="white")
 
         table.add_row("1", "Chat with AI")
@@ -42,7 +42,7 @@ class UI:
 
     @staticmethod
     def select_persona(personas: list) -> str:
-        console.print("\n[bold red]Available Personas:[/bold red]")
+        console.print("\n[bold cyan]Available Personas:[/bold cyan]")
         for i, p in enumerate(personas):
             # Clean up name for display (remove .txt extension)
             display_name = p.replace(".txt", "").replace("_", " ").title()
