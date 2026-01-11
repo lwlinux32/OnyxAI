@@ -1,4 +1,4 @@
-# Onyx (Unrestricted Edition) 💎
+# Onyx 💎
 
 A powerful, unrestricted local LLM interface powered by the Onyx engine. This version runs entirely locally using `gpt4all`.
 
