@@ -1,6 +1,6 @@
 # Onyx 💎
 
-A powerful, unrestricted local LLM interface powered by the Onyx engine. This version runs entirely locally using `gpt4all`.
+A powerful, unrestricted local LLM interface powered by the gpt4all engines. This version runs entirely locally using `gpt4all`.
 
 ## Features
 - **100% Local**: No internet required, no data sent to external servers.
