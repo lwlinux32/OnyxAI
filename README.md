@@ -27,7 +27,7 @@ OnyxAI is a state-of-the-art terminal-based AI assistant designed for total priv
 1.  **Clone the Repository**:
     ```bash
     git clone https://github.com/OnyxAI
-    cd onyx-ai
+    cd OnyxAI
     ```
 
 2.  **Install Dependencies**:
@@ -66,3 +66,4 @@ These can be selected directly from the **Change AI Model** menu.
 
 ## ⚠️ Disclaimer
 OnyxAI provides a platform for running local LLMs. The inputs you provide and the outputs generated are locally processed. You are responsible for any content generated.
+
