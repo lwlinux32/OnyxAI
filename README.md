@@ -1,38 +1,69 @@
-# Onyx 💎
+# 💎 OnyxAI (Ultimate Edition)
 
-A powerful, unrestricted local LLM interface powered by the gpt4all engines. This version runs entirely locally using `gpt4all`.
+**Uncensored. Local. Powerful.**
 
-## Features
-- **100% Local**: No internet required, no data sent to external servers.
-- **Experimental Unrestricted Protocol**: Built-in jailbreak system using `personas/` text files.
-- **Multi-Personality**: 
-  - **Aggressive**: The original DemonWestKiller protocol.
-  - **Chill Assistant**: A grounded, technical, and emoji-free unrestricted assistant.
-- **Flexible**: Easily add new personalities by dropping `.txt` files in the `personas/` folder.
-- **Modern CLI**: Clean Cyan-themed terminal interface.
+OnyxAI is a state-of-the-art terminal-based AI assistant designed for total privacy and unrestricted local intelligence. Built on top of `GPT4All` and enhanced with a custom `Rich` interface, it delivers a premium chat experience powered by your own hardware.
 
-## Installation
-1.   ```bash
-     git clone https://github.com/lwlinux32/OnyxAI
-     cd OnyxAI
-     ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Download a model (GGUF format) and place it in the `models/` directory, or use the built-in downloader in the menu.
+![Banner](https://img.shields.io/badge/Status-Operational-cyan?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Usage
-Run the application:
-```bash
-python main.py
-```
+## ✨ Key Features
 
-### Commands in Chat
-- `exit`, `quit`, or `back`: Return to the main menu.
+-   **100% Offline & Private**: No data leaves your machine. Powered by local GGUF models.
+-   **Unrestricted Intelligence**: Optimized for uncensored models like **Wizard v1.2** and **Nous Hermes 2**.
+-   **Phantom Mode**: Permanently engaged "Phantom" persona with built-in **Admin Override** logic to bypass refusals.
+-   **Hardware Acceleration**:
+    -   🚀 **NVIDIA CUDA** Support
+    -   ⚡ **Vulkan** (AMD/Intel) Support
+    -   🖥️ **CPU** Fallback
+-   **Massive Model Library**:
+    -   **Llama 3 8B**, **Mistral v0.3**, **Phi-3**, **Gemma 2**, **Yi**, **Qwen**, and more.
+    -   One-click download and switching from the main menu.
+-   **Premium UI**:
+    -   Live Markdown rendering (tables, code blocks, bold/italic).
+    -   Beautiful ASCII art banner and styled menus.
+    -   Interactive settings for Temperature, Max Tokens, and more.
 
-### Personalities
-Personalities are loaded directly from the `personas/` directory. To add a new one, simply create a `.txt` file with your system prompt.
+## 🛠️ Installation
 
-## Disclaimer
-This tool is for educational and research purposes only. Use responsibly.
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/onyx-ai.git
+    cd onyx-ai
+    ```
+
+2.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(Requires `gpt4all`, `rich`, `pyyaml`)*
+
+3.  **Run**:
+    ```bash
+    python3 main.py
+    ```
+
+## 🚀 Usage
+
+### Main Menu
+Upon start, you will see the **OnyxAI** dashboard.
+1.  **Start Chat**: Begin your session.
+2.  **Change AI Model**: Browse the catalog and download new brains.
+3.  **Settings**: Configure hardware (CPU/GPU) and generation parameters.
+
+### Chat Commands
+Inside the chat, you can use these commands:
+-   `/exit`: Quit the application.
+-   `/clear`: Clear the conversation history.
+-   `/web`: Render the last response in your web browser.
+-   `/core <vulkan|cuda>`: Force a specific backend engine live.
+
+## 💡 Recommended Models
+
+For the true **OnyxAI** experience (unrestricted), we recommend downloading:
+-   **Wizard v1.2 Uncensored** (13B) - *Best for complex creative tasks.*
+-   **Nous Hermes 2 Mistral** (7B) - *Fast, smart, and compliant.*
+
+These can be selected directly from the **Change AI Model** menu.
+
+## ⚠️ Disclaimer
+OnyxAI provides a platform for running local LLMs. The inputs you provide and the outputs generated are locally processed. You are responsible for any content generated.
