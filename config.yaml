@@ -1,0 +1,7 @@
+device: nvidia
+max_tokens: 4096
+model_name: Nous-Hermes-2-Mistral-7B-DPO.Q4_0.gguf
+model_path: models/
+persona: phantom
+temperature: 2.0
+top_k: 40
