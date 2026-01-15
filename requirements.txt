@@ -1,4 +1,0 @@
-gpt4all>=2.8.0
-rich>=13.0.0
-pyyaml
-requests
