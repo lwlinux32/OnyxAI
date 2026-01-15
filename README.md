@@ -26,7 +26,7 @@ OnyxAI is a state-of-the-art terminal-based AI assistant designed for total priv
 
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/onyx-ai.git
+    git clone https://github.com/OnyxAI
     cd onyx-ai
     ```
 
